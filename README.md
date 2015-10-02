@@ -27,6 +27,8 @@ This will:
  * Install the SSH key provided for the user `attic` into the container
  * Make the container listen on port 2222
 
+If you need to inject multiple SSH keys, simply separate them with '\n'.
+
 ### Create a backup
 
 With the container up and running, you can initiate your vault as follows:

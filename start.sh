@@ -7,7 +7,7 @@ fi
 
 # Installing SSH key
 SSHKEY_PATH="/home/attic/.ssh/authorized_keys"
-echo "$SSHKEY" > $SSHKEY_PATH
+echo -e "$SSHKEY" > $SSHKEY_PATH
 chown attic:attic $SSHKEY_PATH
 chmod 600 $SSHKEY_PATH
 

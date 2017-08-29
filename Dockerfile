@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:16.04
 
 RUN groupadd -r attic && \
     useradd -r -g attic attic && \
